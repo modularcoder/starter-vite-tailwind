@@ -1,6 +1,8 @@
 <template>
   <TheAppHeader />
   <TheHelloWorld msg="Hello Vue 3 + Vite" />
+
+  <RouterView/>
 </template>
 
 <script setup>
@@ -16,7 +18,6 @@ import TheHelloWorld from './_common/TheHelloWorld/TheHelloWorld.vue'
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
 </style>

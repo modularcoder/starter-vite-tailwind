@@ -1,7 +1,9 @@
 <template>
-  <h1>{{ msg }}</h1>
+  <div class="text-center">
+    <h1>{{ msg }}</h1>
 
-  <button @click="handleCountClick">count is: {{ count }}</button>
+    <button @click="handleCountClick">count is: {{ count }}</button>
+  </div>
 </template>
 
 <script setup>

@@ -1,5 +1,11 @@
 {
   "editor.formatOnSave": false,
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+  "emmet.syntaxProfiles": {
+    "postcss": "css"
+  },
   "tailwindCSS.includeLanguages": {
     "javascriptreact": "html",
     "typescriptreact": "html",
