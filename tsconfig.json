@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "allowJs": true,
+    "checkJs": false,
+    "esModuleInterop": true,
+    "baseUrl": "./projects",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+    }
+  },
+  "include": [
+    "./src/**/*",
+  ],
+  "exclude": [],
+}
